@@ -1,5 +1,5 @@
 package com.company;
-
+//Daniyah Wong
 public class Runner {
     public static int[] thisarray = new int[10];
     public static int[] longarray = new int[100];
