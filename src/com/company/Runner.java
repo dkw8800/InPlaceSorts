@@ -23,7 +23,11 @@ public class Runner {
         InPlaceSorts.selectionsort(thisarray);
         returnarr(thisarray);
 
-
+        System.out.println("Testing Quicksort...");
+        makearr(thisarray);
+        returnarr(thisarray);
+        InPlaceSorts.quicksort(thisarray,0,thisarray.length-1);
+        returnarr(thisarray);
 
         System.out.println("\n" + "Testing Runtimes...");
         makearr(longarray);
