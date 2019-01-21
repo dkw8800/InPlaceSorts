@@ -29,7 +29,7 @@ public class Runner {
         InPlaceSorts.quicksort(thisarray,0,thisarray.length-1);
         returnarr(thisarray);
 
-        System.out.println("Testing Quicksort...");
+        System.out.println("Testing Mergesort...");
         makearr(thisarray);
         returnarr(thisarray);
         InPlaceSorts.mergesort(thisarray);
