@@ -29,6 +29,12 @@ public class Runner {
         InPlaceSorts.quicksort(thisarray,0,thisarray.length-1);
         returnarr(thisarray);
 
+        System.out.println("Testing Quicksort...");
+        makearr(thisarray);
+        returnarr(thisarray);
+        InPlaceSorts.mergesort(thisarray);
+        returnarr(thisarray);
+
         System.out.println("\n" + "Testing Runtimes...");
         makearr(longarray);
         int[] longarray2=longarray.clone();
